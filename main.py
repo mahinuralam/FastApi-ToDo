@@ -24,7 +24,7 @@ def get_session():
 
 @app.get('/')
 def root():
-    return "todo"
+    return "Welcome To ToDo With Docker !!!"
 
 
 @app.post('/todo', response_model=schemas.ToDo, status_code=status.HTTP_201_CREATED)
